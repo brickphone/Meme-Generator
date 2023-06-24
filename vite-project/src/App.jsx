@@ -1,8 +1,13 @@
 import Header from './Components/header'
+import Meme from './Components/meme'
 
 const App = () => {
   return(
-    <Header/>
+    <div>
+      <Header/>
+      <Meme/>
+    </div>
+    
   )
 }
 
