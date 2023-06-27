@@ -72,6 +72,21 @@ input {
   background: linear-gradient(135deg, #5e146b 0%, #971998 100%);
 }
 
+.meme-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:25px;
+}
+
+.meme-img {
+  display:flex;
+  width:673px;
+  height:420px;
+  align-items: center;
+  padding-top:20px;
+}
+
 @media (max-width: 500px) {
   body {
     margin:0;
